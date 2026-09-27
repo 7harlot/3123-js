@@ -1,0 +1,22 @@
+{
+  "name": "week03_modules",
+  "version": "1.0.0",
+  "description": "A simple Node.js module for week 3",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Ben Morrison",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev": "nodemon ./index.js localhost 3030"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
